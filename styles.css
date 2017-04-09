@@ -1,0 +1,75 @@
+
+div {
+  background-color: ;
+  border: 1px solid #333;
+  margin: 0px;
+}
+
+.top {
+  background-color: ;
+  text-align: center;
+  font-family: "Special Elite";
+}
+.nav {
+  text-align: center;
+  text-decoration: none;
+}
+.content {
+  padding: %;
+  text-align: left;
+}
+a {
+  color: #555;
+  text-decoration: none;
+   -webkit-transition:color .5s ease-in; 
+   -moz-transition:color .5s ease-in; 
+   -o-transition:color .5s ease-in; 
+   transition:color .5s ease-in; 
+}
+a:hover {
+  color: #222;
+   -webkit-transition:color .07s ease-in; 
+   -moz-transition:color .07s ease-in; 
+   -o-transition:color .07s ease-in; 
+   transition:color .07s ease-in;
+}
+a:active {
+  color: #222;
+   -webkit-transition:color .07s ease-in; 
+   -moz-transition:color .07s ease-in; 
+   -o-transition:color .07s ease-in; 
+   transition:color .07s ease-in;
+}
+
+.album {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  border: 1px solid #222;
+}
+
+.player {
+  position: absolute;
+  bottom: 0px;
+  left: -1px;
+  border: 1px solid #222;
+  
+}
+
+#homeContent {
+}
+#musicContent {
+  display: none;
+}
+#masteringContent {
+  display: none;
+}
+
+}
+@media only screen and (max-width: 666px) {
+    /* For mobile phones: */
+  #spacer { display:none;}
+  [class*="col-"] {
+    width: 100%;
+  }
+}
